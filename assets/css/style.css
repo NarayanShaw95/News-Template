@@ -144,6 +144,8 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color) !important;
 }
 
+.l-heading { font-size: 1.5rem; }
+
 /* Inner page grid container */
 .page-container {
     display: grid;
@@ -172,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main-nav .logo {
-    width: 130px;
+    width: 130px; 
 }
 
 #main-nav ul {
@@ -258,6 +260,18 @@ h1, h2, h3, h4, h5, h6 {
 
 #home-articles .articles-container > *:last-child {
     grid-column: 2 / span 2;
+}
+
+#article .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 0.4rem;
+}
+
+#article .meta .category {
+    margin-top: 0.4rem;
 }
 
 /* Footer */
